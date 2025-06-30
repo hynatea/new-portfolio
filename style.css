@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom right, #3c0d0d, #1a1a1a, #2f2f2f);
+}
+
+
+/* Navigation Bar */
+
+header .navbar {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 40px;
+}
+
+header .navbar a {
+    background: #f9004d;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.navbar a:hover {
+    background: transparent;
+    border: 2px solid #f9004d;
+}
+
+/* About Section */
+
+.about {
+    width: 100%;
+    height : 100vh;
+    padding: 78px 0px;
+}
+
+.about img {
+    height: auto;
+    width: 420px;
+    border-radius: 20px;
+}
+
+.text-about {
+    width: 550px;
+}
+
+.text-about h1 {
+    color: white;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.text-about h5 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.text-about p {
+    color: #F4CFDF;
+    letter-spacing: 1px;
+    line-height: 28px;
+    text-align: justify;
+    font-size: 22px;
+    margin-bottom: 45px;
+}
+
+.main {
+    display: flex;
+    width: 1130px;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #f9004d
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+
+}
+
+button {
+    background: #f9004d;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover {
+    background: transparent;
+    border: 2px solid #f9004d;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .main img {
+        width: 63%;
+        max-width: none;
+    }
+    .about {
+        padding: 30px 0px;
+    }
+    .text-about h1 {
+        font-size: 28px;
+        padding-top: 20px;
+    }
+
+    .text-about h5 {
+        font-size: 20px;
+    }
+
+    .text-about p {
+        font-size: 14px;
+    }
+    .text-about {
+        width: 100%;
+        text-align: center;
+    }
+    .text-about {
+        width: 80%;
+        text-align: center;
+    }
+    button {
+        flex: 1;
+        margin: 15px 5px;
+    }
+}
