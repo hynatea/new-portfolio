@@ -69,21 +69,21 @@ button:hover {
 
 /* Ecriture Projets */
 
-.projets h1 {
+h1 {
     color: #FE277E;
     font-size: 36px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 
-.projets h5 {
+h5 {
     color: #FE277E;
     font-size: 24px;
     margin-bottom: 25px;
     letter-spacing: 2px;
 }
 
-.projets p {
+p {
     color: #384454;
     letter-spacing: 1px;
     line-height: 28px;
@@ -94,7 +94,7 @@ button:hover {
 
 /* Projets Section */
 
-.projet-content-1 img {
+.projet-content img {
     width: 95%;
     display: block;
     margin: 0 auto;
@@ -103,23 +103,23 @@ button:hover {
     transition: transform 0.6s ease;
 }
 
-.projet-content-1 img {
+.projet-content img {
     transition: filter 0.6s ease;
 }
 
-.projet-content-1 img:hover {
+.projet-content img:hover {
     transform: scale(1.1); /* agrandit l'image de 5% */
     background: transparent;
     border: 2px solid #FE277E;
 }
 
-.projet-content-1 {
+.projet-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.content-1 {
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,10 +135,10 @@ button:hover {
         align-items: center;
         width: 100%;
 }
-    .main p {
+    .main-1 p {
     padding-right: 0;
 }
-    .projet-content-1 {
+    .projet-content {
     flex-direction: column;
     padding-left: 10px;
 }
@@ -147,10 +147,10 @@ button:hover {
     padding-bottom: 25px;
     padding-right: 0;
 }
-    .content-1 p {
+    .content p {
     padding-left: 5px;
 }
-    .projet-content-1 img {
+    .projet-content img {
     width: 160%;
 }
     .content-p p {
