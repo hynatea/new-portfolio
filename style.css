@@ -6,7 +6,8 @@
 }
 
 body {
-    background: linear-gradient(to bottom right, #3c0d0d, #1a1a1a, #2f2f2f);
+    background: #8badf7;
+    background: linear-gradient(90deg, rgba(139, 173, 247, 1) 30%, rgba(224, 135, 168, 1) 100%);
 }
 
 
@@ -20,21 +21,6 @@ header .navbar {
     padding-right: 40px;
 }
 
-header .navbar a {
-    background: #f9004d;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 13px 30px;
-    border-radius: 30px;
-    transition: .4s;
-}
-
-.navbar a:hover {
-    background: transparent;
-    border: 2px solid #f9004d;
-}
-
 /* About Section */
 
 .about {
@@ -45,8 +31,8 @@ header .navbar a {
 
 .about img {
     height: auto;
-    width: 420px;
-    border-radius: 20px;
+    width: 430px;
+    border-radius: 50px;
 }
 
 .text-about {
@@ -68,7 +54,7 @@ header .navbar a {
 }
 
 .text-about p {
-    color: #F4CFDF;
+    color: #384454;
     letter-spacing: 1px;
     line-height: 28px;
     text-align: justify;
@@ -86,7 +72,7 @@ header .navbar a {
 }
 
 span {
-    color: #f9004d
+    color: #FE277E
 }
 
 .button-group {
@@ -95,19 +81,25 @@ span {
 
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 button {
-    background: #f9004d;
+    background: #FE277E;
     text-decoration: none;
     color: white;
     font-weight: bold;
     padding: 13px 30px;
     border-radius: 30px;
     transition: .4s;
+    font-size: 13px;
 }
 
 button:hover {
     background: transparent;
-    border: 2px solid #f9004d;
+    border: 2px solid #FE277E;
 }
 
 @media screen and (max-width: 768px) {
