@@ -95,7 +95,7 @@ p {
 /* Projets Section */
 
 .projet-content img {
-    width: 95%;
+    width: 85%;
     display: block;
     margin: 0 auto;
     border-radius: 20px;
@@ -129,20 +129,24 @@ p {
 
 }
 
+#design {
+    padding-top: 5em;
+}
+
 @media screen and (max-width: 768px) {
     .main {
         flex-direction: column;
         align-items: center;
         width: 100%;
 }
-    .main-1 p {
+    .main p {
     padding-right: 0;
 }
     .projet-content {
     flex-direction: column;
     padding-left: 10px;
 }
-    .content-1 {
+    .content {
     padding-top: 0;
     padding-bottom: 25px;
     padding-right: 0;
