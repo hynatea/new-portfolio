@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-    background: #8badf7;
+    background: #A1B3D1;
 }
 
 /* Navigation Bar */
@@ -116,7 +116,7 @@ p {
 /* Projets Section */
 
 .projet img {
-    width: 80%;
+    width: 78%;
     display: block;
     margin: 0 auto;
     border-radius: 20px;
