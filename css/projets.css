@@ -11,7 +11,8 @@ html, body {
 }
 
 body {
-    background: #A1B3D1;
+    background: #8badf7;
+    background: linear-gradient(90deg, rgba(139, 173, 247, 1) 30%, #e087a8 100%);
 }
 
 /* Navigation Bar */
