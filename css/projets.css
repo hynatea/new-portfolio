@@ -118,7 +118,7 @@ p {
 /* Projets Section */
 
 .projet img {
-    width: 78%;
+    width: 75%;
     display: block;
     margin: 0 auto;
     border-radius: 20px;
@@ -178,6 +178,28 @@ footer {
     .main p {
     padding-right: 0;
 }
+    h1 {
+        font-size: 26px;
+        padding-top: 20px;
+        margin: 0;
+        text-align: center;
+    }
+    h3 {
+        font-size: 16px;
+        margin-bottom: 15px;
+        padding-left: 10px;
+        font-weight: 500;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+    hr {
+        margin-top: 20px;
+    margin-bottom: 20px;
+    }
     .projet {
     flex-direction: column;
     padding-left: 10px;
@@ -195,6 +217,13 @@ footer {
 }
     .content-p p {
     text-align: start;
+}
+#design {
+    padding-top: 1em;
+}
+footer {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 }
