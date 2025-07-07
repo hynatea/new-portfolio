@@ -70,7 +70,7 @@ button:hover {
 
 .main p {
     padding-bottom: 20px;
-    padding-right: 40%;
+    padding-right: 0;
 }
 
 hr {
@@ -177,6 +177,7 @@ footer {
 }
     .main p {
     padding-right: 0;
+    padding-bottom: 0;
 }
     h1 {
         font-size: 26px;
@@ -197,11 +198,11 @@ footer {
         font-size: 14px;
     }
     hr {
-        margin-top: 20px;
-    margin-bottom: 20px;
+        margin-top: 30px;
+    margin-bottom: 30px;
     }
     .projet {
-    flex-direction: column;
+    flex-wrap: wrap;
     padding-left: 10px;
 }
     .content {
@@ -213,7 +214,7 @@ footer {
     padding-left: 5px;
 }
     .projet img {
-    width: 160%;
+    width: 90%;
 }
     .content-p p {
     text-align: start;
