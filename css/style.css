@@ -59,7 +59,7 @@ header .navbar {
     line-height: 28px;
     text-align: justify;
     font-size: 22px;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 }
 
 .main {
@@ -78,7 +78,6 @@ span {
 .button-group {
     display: flex;
     gap: 15px;
-
 }
 
 a {
@@ -136,7 +135,14 @@ button:hover {
         text-align: center;
     }
     button {
-        flex: 1;
         margin: 15px 5px;
+    }
+    header .navbar {
+        padding-right: 10px;
+    }
+    .button-group {
+        display: flex;
+        gap: 0;
+        justify-content: center;
     }
 }
