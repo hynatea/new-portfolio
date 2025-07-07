@@ -18,19 +18,6 @@
 
 <body>
 
-    <header>
-        <nav class="navbar">
-            <ul class="nav-links">
-                <div class="button-group">
-                    <button class="nav" type="button" style="cursor: pointer;"><a href="index.html">Accueil</a>
-                    </button>
-                    <button class="nav" type="button" style="cursor: pointer;"><a href="projets.html">Mes
-                            Projets</a>
-                    </button>
-                </div>
-            </ul>
-        </nav>
-    </header>
 
     <section class="about">
         <div class="main">
@@ -59,6 +46,112 @@
 
         </div>
     </section>
+
+    <section class="projets">
+        <div class="projet-main">
+            <h1>Mes Projets</h1>
+            <h1>L'univers du Développement Web</h1>
+            <p>Je suis passionnée par la création de sites web. J’ai principalement appris en autodidacte les langages
+                de base comme le HTML et le CSS, ce qui m’a permis de maîtriser l’aspect visuel des sites. J’ai
+                également suivi une formation d’initiation aux métiers du web pour approfondir mes connaissances. Ce que
+                j’aime par-dessus tout, c’est créer du contenu, donner vie aux idées à travers le design et soigner la
+                mise en page pour offrir une expérience utilisateur agréable.</p>
+            <hr>
+            <h5>Certaines de mes créations</h5>
+        </div>
+        <div class="projet">
+            <div class="content">
+                <h3>Première création d'un site basé sur le jeu World of Warcraft (inachevé)</h3>
+                <a href="https://ultimatecrown.netlify.app/">
+                    <img src="./img/Screenshot_1.png" alt="Screenshot_site_vitrine">
+                </a>
+            </div>
+            <div class="content">
+                <h3>Clonage d'un site issu d'un exercice trouvé sur Figma, en guise d'entrainement</h3>
+                <a href="https://writings-for-dev.netlify.app/">
+                    <img src="./img/Screenshot_2.png" alt="Screenshot_site_vitrine">
+                </a>
+            </div>
+            <div class="content">
+                <h3>Premier Portfolio réalisé 100% à l'aide de mes connaissances</h3>
+                <a href="https://hynatea-portfolio.netlify.app/">
+                    <img src="./img/Screenshot_3.png" alt="Screenshot_site_vitrine">
+                </a>
+            </div>
+            <div class="content">
+                <h3>Création d'un Counter App, initiation au langage Javascript</h3>
+                <a href="https://your-counter-app.netlify.app/">
+                    <img src="./img/Screenshot_4.png" alt="Screenshot_site_vitrine">
+                </a>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="projet-main" id="design">
+            <h1>L'univers du Design</h1>
+            <p>Je découvre avec enthousiasme le monde du design et du marketing digital. La création de contenu est
+                une activité qui me stimule, mais ce que je préfère, c’est donner vie à mes réalisations et les voir
+                évoluer. Actuellement, j’apprends à maîtriser différents outils indispensables dans ce domaine,
+                comme la suite Adobe (Photoshop, Illustrator…) ou WordPress, afin de gagner en autonomie et en
+                créativité. Je suis ravie d’avoir découvert cet univers riche et en constante évolution, qui me
+                passionne de plus en plus chaque jour.</p>
+            <hr>
+            <h5>Certaines de mes créations</h5>
+        </div>
+        <div class="projet">
+            <div class="content">
+                <h3>Première création d'une marque fictive, découverte des outils de Design</h3>
+                <a href="./doc/Luma.pdf" download="Création de marque - Luma">
+                    <img src="./img/Screenshot_5.png" alt="Screenshot_design">
+                </a>
+            </div>
+            <div class="content">
+                <h3>Première création d'une marque fictive, découverte des outils de Design</h3>
+                <a href="./doc/Hina.pdf" download="Création de marque - Hina">
+                    <img src="./img/Screenshot_7.png" alt="Screenshot_site_vitrine">
+                </a>
+            </div>
+            <div class="content">
+                <h3>Un peu de patience, encore beaucoup de projets sont à venir !</h3>
+                <a href="">
+                    <img src="./img/Screenshot_6.png" alt="Screenshot_site_vitrine">
+                </a>
+            </div>
+            <div class="content">
+                <h3>Un peu de patience, encore beaucoup de projets sont à venir !</h3>
+                <a href="">
+                    <img src="./img/Screenshot_6.png" alt="Screenshot_site_vitrine">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 Melissa BOYRAZ. Tous droits réservés.</p>
+    </footer>
+
+    <button onclick="scrollToTop()" id="btnTop">↑ Haut</button>
+
+    <script>
+        // Afficher le bouton quand on descend dans la page
+        window.onscroll = function () {
+            const btn = document.getElementById("btnTop");
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+
+        // Fonction pour revenir en haut de la page
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
 
 </body>
 
