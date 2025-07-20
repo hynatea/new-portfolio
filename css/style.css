@@ -6,8 +6,7 @@
 }
 
 body {
-    background: #8badf7;
-    background: linear-gradient(90deg, rgba(139, 173, 247, 1) 30%, #e087a8 100%);
+    background: #516079;
 }
 
 
@@ -46,7 +45,7 @@ body {
 }
 
 .text-about p {
-    color: #384454;
+    color: #F8FBF1;
     letter-spacing: 1px;
     line-height: 28px;
     text-align: justify;
@@ -64,7 +63,7 @@ body {
 }
 
 span {
-    color: #FE277E
+    color: #a02653;
 }
 
 .button-group {
@@ -78,7 +77,7 @@ a {
 }
 
 button {
-    background: #FE277E;
+    background: #a02653;
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -90,7 +89,7 @@ button {
 
 button:hover {
     background: transparent;
-    border: 2px solid #FE277E;
+    border: 2px solid #a02653;
 }
 
 
@@ -122,7 +121,7 @@ hr {
 /* Ecriture Projets */
 
 h1 {
-    color: #FE277E;
+    color: #a02653;
     font-size: 36px;
     text-transform: capitalize;
     margin-bottom: 20px;
@@ -130,21 +129,21 @@ h1 {
 }
 
 h3 {
-    color: #384454;
+    color: #F8FBF1;
     font-size: 20px;
     margin-bottom: 25px;
     letter-spacing: 1px;
 }
 
 h5 {
-    color: #FE277E;
+    color: #a02653;
     font-size: 24px;
     margin-bottom: 25px;
     letter-spacing: 2px;
 }
 
 p {
-    color: #384454;
+    color: #F8FBF1;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 16px;
@@ -167,7 +166,7 @@ p {
 .projet img:hover {
     transform: scale(1.1); /* agrandit l'image de 5% */
     background: transparent;
-    border: 2px solid #FE277E;
+    border: 2px solid #a02653;
 }
 
 .projet {
@@ -194,7 +193,7 @@ p {
   display: none; /* caché au départ */
   padding: 10px 15px;
   font-size: 16px;
-  background-color: #FE277E;
+  background-color: #a02653;
   color: white;
   border: 2px solid;
   border-radius: 30px;
